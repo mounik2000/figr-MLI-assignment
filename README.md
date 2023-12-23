@@ -9,7 +9,8 @@ Implementation details: Run the notebook in the presence of GPUs
 2. I wrote the logic for training in PyTorch instead of using inbuilt HF trainers.
 3. Used Dynamic Learning Rate Scheduler with Adam optimizer
 4. Here is the code to compute the BLEU score. We used this to compare two html codes (two strings).
-<img width="426" alt="image" src="https://github.com/mounik2000/figr-MLI-assignment/assets/57180667/bc1c2e95-97a3-4bf8-bb29-f11ee78824cc">
+<img width="500" alt="image" src="https://github.com/mounik2000/figr-MLI-assignment/assets/57180667/bc1c2e95-97a3-4bf8-bb29-f11ee78824cc">
+
 ## Challenges Faced
 1. Saving the model for the API: The 4-bit model config cannot be saved from Collab
 2. Running the code to compute the metric: There were some compilation issues for a long time, and the test results could have been better. (see the last two cells of the notebook). Hence included the code separately
